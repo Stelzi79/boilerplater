@@ -4,51 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2222a27ebff15ded",
-        "type": "split",
+        "id": "47ef4bb2259469a0",
+        "type": "tabs",
         "children": [
           {
-            "id": "47ef4bb2259469a0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b13578e48500bfc6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "readme.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                },
-                "group": "7a5a8d439351f16b"
+            "id": "45e062fae05f0d18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bper.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "d67f4070a6a8aa37",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b365ca981a6b8c45",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "readme.md",
-                    "mode": "preview",
-                    "backlinks": true,
-                    "source": false
-                  }
-                },
-                "group": "7a5a8d439351f16b"
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "bper.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -147,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "bper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "bper.md"
               }
             }
           },
@@ -233,9 +205,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b13578e48500bfc6",
+  "active": "45e062fae05f0d18",
   "lastOpenFiles": [
     "readme.md",
+    "bper.md",
+    "bper",
     "New Stuff/Kubernetes.md",
     "New Stuff/Docker.md",
     "New Stuff/Software.md",
@@ -270,8 +244,6 @@
     "Video Ideas",
     "files",
     "Technologies/Kubernetes/kubeadm.md",
-    "Windows Issues/Setup Hyper-V UserGroups.md",
-    "Untitled 20230309 050448.encrypted",
-    "Secrets/Passwords.encrypted"
+    "Untitled 20230309 050448.encrypted"
   ]
 }
