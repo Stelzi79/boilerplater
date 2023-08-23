@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "2e3f450edf6efc84",
+    "type": "split",
+    "children": [
+      {
+        "id": "2222a27ebff15ded",
+        "type": "split",
+        "children": [
+          {
+            "id": "47ef4bb2259469a0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b13578e48500bfc6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "readme.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                },
+                "group": "7a5a8d439351f16b"
+              }
+            ]
+          },
+          {
+            "id": "d67f4070a6a8aa37",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b365ca981a6b8c45",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "readme.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                },
+                "group": "7a5a8d439351f16b"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cf078f9e6a01eb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "56962ccfe2dfc469",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36a5b5cd483db0eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d77579b420bce2f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tele",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c7d2d4472a50ba26",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "01465783dee3a851",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "322b71637334b29a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "198db856c0e6e6a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "23e328135efa21f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a8e7164fa04d428",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "readme.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9bdfef777a0d1e6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "847f058571df3901",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d580c9ca01625d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "readme.md"
+              }
+            }
+          },
+          {
+            "id": "f31e2bd20cdbdaee",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b8ca58f2e35d2800",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "89c73ce231c95f68",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "934a6acd5294245e",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-metatable:Metatable": false,
+      "meld-encrypt:Create new encrypted note": false,
+      "obsidian-rich-links:Rich Links": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "b13578e48500bfc6",
+  "lastOpenFiles": [
+    "readme.md",
+    "New Stuff/Kubernetes.md",
+    "New Stuff/Docker.md",
+    "New Stuff/Software.md",
+    "Technologies/Ubuntu/Create Minimal Bootmedia.md",
+    "Snippets/Bash.md",
+    "Technologies/Docker/LocalDockerHostVM.md",
+    "Technologies/Ubuntu/sudo users.md",
+    "Technologies/Ubuntu/Setup SSH.md",
+    "Technologies/Ubuntu/XDG Base Directory Specification.md",
+    "Technologies/Ubuntu/PXE Ubuntu Boot Environment.md",
+    "Technologies/Ubuntu/Additional PPAs.md",
+    "Technologies/Docker/Jellyfin.md",
+    "Technologies/Ansible/01 Install and Setup.md",
+    "Technologies/Electronics/TPS63020.md",
+    "Technologies/tps63020.pdf",
+    "Technologies/Electronics",
+    "Technologies/Ansible/03 Playbook.md",
+    "Technologies/WSL/Vagrant.md",
+    "Technologies/Pasted image 20230415203649.png",
+    "Cubic.md",
+    "New Stuff/Dotnet CSharp.md",
+    "Links.md",
+    "Untitled.canvas",
+    "Games/Factorio.md",
+    "Technologies/Git/Change Author of Commit.md",
+    "Snippets",
+    "Video Ideas/DevOps/Dev-Bootstrap-EmAll.md",
+    "Local Service Infrastructure/Full Bootstrap.md",
+    "Video Ideas/Coding",
+    "Video Ideas/Gaming",
+    "Video Ideas/DevOps",
+    "Video Ideas",
+    "files",
+    "Technologies/Kubernetes/kubeadm.md",
+    "Windows Issues/Setup Hyper-V UserGroups.md",
+    "Untitled 20230309 050448.encrypted",
+    "Secrets/Passwords.encrypted"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "tabSize": 2,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "showLineNumber": true,
+  "showIndentGuide": true,
+  "attachmentFolderPath": "Technologies",
+  "readableLineLength": true,
+  "defaultViewMode": "preview"
+}
