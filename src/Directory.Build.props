@@ -1,0 +1,32 @@
+﻿<Project ToolsVersion="Current"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<Common>_CommonMsBuildFiles/</Common>
+		<Targets>$(Common)Targets/</Targets>
+		<Props>$(Common)Props/</Props>
+
+		<SdkCsProj>$(Props)SdkCsProj.props</SdkCsProj>
+		<BaseDirectories>$(Props)BaseDirectories.props</BaseDirectories>
+		<PackageRefs>$(Props)PackageRefs.props</PackageRefs>
+		<GenFolder>$(Props)GenFolder.props</GenFolder>
+		<DefaultPropertyGroup>$(Props)DefaultPropertyGroup.props</DefaultPropertyGroup>
+
+		<GeneralInfoMsg>$(Targets)GeneralInfoMsg.targets</GeneralInfoMsg>
+		<CustomSdkPackTask>$(Targets)CustomSdkPackTask.targets</CustomSdkPackTask>
+		<Replace>$(Targets)Replace.targets</Replace>
+
+	</PropertyGroup>
+
+	<Import Project="$(SdkCsProj)"/>
+	<Import Project="$(BaseDirectories)"/>
+	<Import Project="$(PackageRefs)"/>
+	<!-- <Import Project="$(GenFolder)"/> -->
+	<!-- <Import Project="$(DefaultPropertyGroup)"/> -->
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>$(AssemblyName).Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<SetVar Condition=" '$(SolutionDir)' != '' ">SolutionDir-</SetVar>
+		<SetVar Condition=" '$(BaseBuildDir)' != '' ">$(SetVar)BaseBuildDir-</SetVar>
+		<SetVar Condition=" '$(MSBuildProjectDirectory)' != '' ">$(SetVar)MSBuildProjectDirectory-</SetVar>
+		<SetVar Condition=" '$(ProjectDir)' != '' ">$(SetVar)ProjectDir-</SetVar>
+		<sonst>@(_AllDirectoriesAbove.Split(';')[2])</sonst>
+
+
+		<!-- <BaseBuildDir>..\</BaseBuildDir> -->
+		<BaseBuildDir Condition=" '$(SolutionDir)' != '' ">$(SolutionDir)</BaseBuildDir>
+		<BaseBuildDir Condition=" '$(BaseBuildDir)' == '' ">$(MSBuildProjectDirectory)\..\..</BaseBuildDir>
+		<BaseBuildDir Condition=" '$(BaseBuildDir)' == '' ">$(ProjectDir)\..\..</BaseBuildDir>
+		<BaseBuildDir>$([System.IO.Path]::GetFullPath('$(BaseBuildDir)'))</BaseBuildDir>
+		<SolutionDir Condition=" '$(SolutionDir)' == '' ">$(BaseBuildDir)</SolutionDir>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<LocalPackageSource>$(BaseBuildDir)\.nupkg</LocalPackageSource>
+		<BaseOutputPath>$(BaseBuildDir)\.vs\bin\$(MSBuildProjectName)</BaseOutputPath>
+		<BaseIntermediateOutputPath>$(BaseBuildDir)\.vs\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+	</PropertyGroup>
+	
+</Project>

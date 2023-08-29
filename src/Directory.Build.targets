@@ -1,0 +1,34 @@
+﻿<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+
+	<Target Name="MsBuildInfo" AfterTargets="restore">
+		<!-- <Message Importance="high" Text="MSBuildProjectDirectory:	$(MSBuildProjectDirectory)"/> -->
+		<Message Importance="high" Text="ProjectDir:	$(ProjectDir)"/>
+		<Message Importance="high" Text="SolutionDir:	$(SolutionDir)"/>
+		<Message Importance="high" Text="BaseBuildDir:	$(BaseBuildDir)"/>
+
+
+		<Message Importance="high" Text="=============="/>
+		<Message Importance="high" Text="SetVar:	$(SetVar)"/>
+		<Message Importance="high" Text="MSBuildStartupDirectory:	$(MSBuildStartupDirectory)"/>
+		<Message Importance="high" Text="_AllDirectoriesAbove:	@(_AllDirectoriesAbove.Split()[2])"/>
+		
+
+		<!-- <Touch Files="C:\Repositories\boilerplater\zzz-$(SetVar)end.txt" AlwaysCreate="true"/> -->
+
+		<Message Importance="high" Text="LocalPackageSource:	$(LocalPackageSource)"/>
+		<Message Importance="high" Text="BaseOutputPath:	$(BaseOutputPath)"/>
+		<Message Importance="high" Text="BaseIntermediateOutputPath:	$(BaseIntermediateOutputPath)"/>
+		<Message Importance="high" Text="=============="/>
+
+		<Message Importance="high" Text="SdkRootPath:	$(SdkRootPath)"/>
+		<Message Importance="high" Text="NugetPath:		$(NugetPath)"/>
+		<Message Importance="high" Text="Local Packages are resolved from the source: $(LocalPackageSource)"/>
+	</Target>
+
+
+	<!-- <Import Project="$(GeneralInfoMsg)"/> -->
+	<Import Project="$(CustomSdkPackTask)" />
+	<Import Project="$(Replace)" />	
+
+	</Project>
